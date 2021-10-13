@@ -17,8 +17,7 @@ body{
     background-size: cover;
     background-attachment: fixed;
     background-position: center; 
-    height:939px;
-    width:1663px;
+    height:100vh;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -31,6 +30,8 @@ body{
 }
 
 .header1{
+    /* width:35%;
+    height:18%; */
     border: none;
     color: white;
     background-color: #4c4c4c;
@@ -39,12 +40,14 @@ body{
     line-height: 80px;
     text-align: center;
     display:inline;
-    outline: purple solid 8px;
+    outline: purple inset 8px;
     outline-offset: 16px;
     border-top-left-radius: 32px;
     border-bottom-right-radius: 32px;
     padding: 32px;
     letter-spacing: 8px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 
 }
 .first{
@@ -71,8 +74,7 @@ h2{
     background-size: cover;
     background-attachment: fixed;
     background-position: center; 
-    height:939px;
-    width:1663px;
+    height:100vh;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -84,7 +86,9 @@ h2{
     text-align: center;
 }
 #clarusway{
-    width:30%;
+    display:block;
+    width:50%;
+    margin: auto;
 
 }
 
@@ -104,8 +108,7 @@ h2{
     background-size: cover;
     background-attachment: fixed;
     background-position: center; 
-    height:939px;
-    width:1663px;
+    height:100vh;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -161,8 +164,7 @@ h2{
     background-size: cover;
     background-attachment: fixed;
     background-position: center; 
-    height:939px;
-    width:1663px;
+    height:100vh;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -183,8 +185,7 @@ h2{
     background-size: cover;
     background-attachment: fixed;
     background-position: center; 
-    height:939px;
-    width:1663px;
+    height:100vh;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -200,12 +201,14 @@ h2{
     line-height: 80px;
     text-align: center;
     display:inline;
-    outline: purple solid 8px;
+    outline: purple inset 8px;
     outline-offset: 16px;
     border-top-left-radius: 32px;
     border-bottom-right-radius: 32px;
     padding: 32px;
     letter-spacing: 8px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 
